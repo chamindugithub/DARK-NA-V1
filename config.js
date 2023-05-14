@@ -14,6 +14,6 @@ FOOTER: process.env.FOOTER === undefined ? 'ᴀꜱᴛʀᴏ-ᴍᴅ ᴘᴜʙʟɪ�
 CAPTION: process.env.CAPTION === undefined ? '*ɢᴇɴᴀʀᴀᴛᴇᴅ ʙʏ ᴀꜱᴛʀᴏ-ᴍᴅ*' : process.env.CAPTION,
 ONLY_GROUP: process.env.ONLY_GROUP === undefined ? 'false' : process.env.ONLY_GROUP,
 INBOX_BL_MSG: process.env.INBOX_BL_MSG === undefined ? '*Inbox not allowed' : process.env.INBOX_BL_MSG,
-HOST: process.env.HOST === undefined ? '-' : process.env.HOST,
-SESSION_ID: process.env.SESSION_ID === undefined ? 'ASTRO=Z24khZJS#UkwwYiB7LUz_ogiAwU1_VRbc2yOdiYL8KmInFCsKFFk' : process.env.SESSION_ID
+HOST: process.env.HOST === undefined ? 'heroku' : process.env.HOST,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'RzU3bnk5cHI=' : process.env.SESSION_ID
 };
